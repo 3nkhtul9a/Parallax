@@ -73,6 +73,7 @@ h1 {
   left: 0;
   background-position: right center;
   transform: scaleX(-1);
+  background-size: contain;
 }
 .objects {
   position: absolute;
@@ -86,7 +87,7 @@ h1 {
  transform: scaleX(-1);
  filter: brightness(70%);
 }
-.deathstar {
+.stardestroyer {
   width: 120px;
   height: 120px;
   left: 1200px;
