@@ -81,12 +81,12 @@ h1 {
   z-index: 5;
 }
 .x-wing {
- width: 200px;
- height: 200px;
+ width: 100px;
+ height: auto;
  left: 0%;
  top: 5%;
  transform: scaleX(-1);
- filter: brightness(70%);
+ filter: brightness(60%);
 }
 .stardestroyer {
   width: 120px;
@@ -94,4 +94,11 @@ h1 {
   right: 20px;
   top: 30px;
   left: auto;
+}
+.millenium-falcon{
+  width: 300px;
+  height: auto;
+  top: 100px;
+  right: 10px;
+  transform: scaleX(-1);
 }
